@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "G7",
       "repo": "https://github.com/Fer1d/LMG710_Kernel.git",
-      "branch": "ksu",
+      "branch": "tag-8800-clang",
       "device": "judyln",
       "defconfig": "STB_EM_defconfig"
     },
@@ -43,6 +43,6 @@
       "release": true
     },
     "enableKernelSU": false,
-    "enableLXC": false
+    "enableLXC": true
   }
 ]
