@@ -3,34 +3,23 @@
       "kernelSource": {
         "name": "InfiniR",
         "repo": "https://github.com/toraidl/InfiniR_kernel_umi.git",
-        "branch": "pipa-t-oss",
-        "device": "ucmi",
-        "defconfig": "ucmi_defconfig"
+        "branch": "14.0-umi",
+        "device": "umi",
+        "defconfig": "umi_defconfig"
       },
       "toolchains": [
    {
-     "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-          "branch": "master",
-          "name": "gas",
-          "binaryEnv": []
-        },
-        {
-          "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-          "branch": "11",
-          "name": "clang",
-          "binaryEnv": [
-            "bin"
-          ]
-        }
-      ],
+     "name": "clang",
+     "url": "https://github.com/ZyCromerZ/Clang/releases/download/16.0.6-20231003-release/Clang-16.0.6-20231003.tar.gz" ,
+     "binaryEnv": ["./bin"]
+   }
+   ],
       "enableCcache": true,
       "params": {
         "ARCH": "arm64",
         "CC": "clang/bin/clang",
         "externalCommands": {
           "CROSS_COMPILE": "aarch64-linux-gnu-",
-          "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
-          "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
           "CLANG_TRIPLE": "aarch64-linux-gnu-",
           "NM":"llvm-nm",
           "OBJDUMP":"llvm-objdump",
@@ -45,7 +34,7 @@
           "branch": "kona"
         }
       },
-      "enableKernelSU": false,
+      "enableKernelSU": true,
       "enableLXC": false
     }
 ]
