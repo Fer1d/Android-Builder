@@ -10,7 +10,7 @@
       "toolchains": [
    {
      "name": "clang",
-     "url": "https://github.com/ZyCromerZ/Clang/releases/download/10.0.1-20220724-release/Clang-10.0.1-20220724.tar.gz" ,
+     "url": "https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240320-release/Clang-19.0.0git-20240320.tar.gz" ,
      "binaryEnv": ["./bin"]
    }
    ],
