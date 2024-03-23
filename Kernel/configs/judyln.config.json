@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "G7",
       "repo": "https://github.com/Fer1d/LMG710_Kernel.git",
-      "branch": "tag-8800-clang",
+      "branch": "KernelSU",
       "device": "judyln",
       "defconfig": "STB_EM_defconfig"
     },
@@ -42,7 +42,7 @@
   "use": true,
   "release": true,
   "custom": {
-    "repo": "https://github.com/osm0sis/AnyKernel3.git",
+    "repo": "https://github.com/osm0sis/AnyKernel3/",
     "branch": "master"
   }
 }
