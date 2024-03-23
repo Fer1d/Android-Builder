@@ -38,10 +38,14 @@
         "CONFIG_THINLTO": ""
       }
     },
-    "AnyKernel3": {
-      "use": true,
-      "release": true
-    },
+   "AnyKernel3": {
+  "use": true,
+  "release": true,
+  "custom": {
+    "repo": "https://github.com/osm0sis/AnyKernel3.git",
+    "branch": "master"
+  }
+}
     "enableKernelSU": true,
     "enableLXC": true
   }
