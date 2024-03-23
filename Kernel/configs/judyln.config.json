@@ -42,10 +42,10 @@
   "use": true,
   "release": true,
   "custom": {
-    "repo": "https://github.com/osm0sis/AnyKernel3/",
+    "repo": "https://github.com/osm0sis/AnyKernel3.git",
     "branch": "master"
   }
-}
+  },
     "enableKernelSU": true,
     "enableLXC": true
   }
