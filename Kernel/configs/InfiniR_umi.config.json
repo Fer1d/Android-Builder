@@ -23,7 +23,7 @@
           "CLANG_TRIPLE": "aarch64-linux-gnu-",
           "NM":"llvm-nm",
           "OBJDUMP":"llvm-objdump",
-          "STRIP":"llvm-strip"
+          "STRIP":"llvm-strip",
           "CONFIG_THINLTO": ""
         }
       },
