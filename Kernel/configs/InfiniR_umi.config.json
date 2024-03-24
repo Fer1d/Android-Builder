@@ -22,8 +22,7 @@
           "CROSS_COMPILE": "aarch64-linux-gnu-",
           "CLANG_TRIPLE": "aarch64-linux-gnu-",
           "LD":"LD=ld.lld",
-          "OBJDUMP":"llvm-objdump",
-          "STRIP":"llvm-strip"
+          
         }
       },
       "AnyKernel3": {
