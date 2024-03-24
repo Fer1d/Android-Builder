@@ -22,7 +22,7 @@
           "CROSS_COMPILE": "aarch64-linux-gnu-",
           "CLANG_TRIPLE": "aarch64-linux-gnu-",
           "LD":"LD=ld.lld",
-          
+          "CONFIG_THINLTO": ""
         }
       },
       "AnyKernel3": {
