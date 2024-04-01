@@ -5,8 +5,8 @@
             "Branch": "12.1"
         },
         "Device": {
-            "Repo": "https://github.com/EmanuelCN/android_device_lge_judyln.git",
-            "Branch": "U",
+            "Repo": "https://github.com/TheNotOnly/android_device_lge_judyln.git",
+            "Branch": "ten",
             "Location": "device/lge/judyln",
             "DeviceName": "judyln",
             "Makefile": "aosp_judyln",
