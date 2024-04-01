@@ -9,7 +9,7 @@
             "Branch": "U",
             "Location": "device/lge/judyln",
             "DeviceName": "judyln",
-            "Makefile": "twrp_judyln",
+            "Makefile": "aosp_judyln",
             "BootPartition": "boot"
         }
     }
