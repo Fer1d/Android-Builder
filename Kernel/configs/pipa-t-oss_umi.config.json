@@ -1,7 +1,7 @@
   [
     {
       "kernelSource": {
-        "name": "InfiniR",
+        "name": "pipa-t-oss",
         "repo": "https://github.com/toraidl/InfiniR_kernel_ucmi.git",
         "branch": "pipa-t-oss",
         "device": "umi",
