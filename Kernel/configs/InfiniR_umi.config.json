@@ -2,7 +2,7 @@
     {
       "kernelSource": {
         "name": "InfiniR",
-        "repo": "https://github.com/Fer1d/InfiniR_kernel_ucmi.git",
+        "repo": "",
         "branch": "pipa-t-oss",
         "device": "umi",
         "defconfig": "ucmi_defconfig"
