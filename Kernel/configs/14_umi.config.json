@@ -1,16 +1,16 @@
   [
     {
       "kernelSource": {
-        "name": "pipa-t-oss",
+        "name": "14",
         "repo": "https://github.com/toraidl/InfiniR_kernel_ucmi.git",
-        "branch": "pipa-t-oss",
+        "branch": "14",
         "device": "umi",
         "defconfig": "ucmi_defconfig"
       },
       "toolchains": [
    {
      "name": "clang",
-     "url": "https://github.com/ZyCromerZ/Clang/releases/download/10.0.1-20220724-release/Clang-10.0.1-20220724.tar.gz" ,
+     "url": "https://raw.githubusercontent.com/ZyCromerZ/Clang/main/Clang-16-link.txt" ,
      "binaryEnv": ["./bin"]
    }
    ],
